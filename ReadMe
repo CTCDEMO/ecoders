@@ -1,0 +1,60 @@
+# AI Marine Water Impurity Detection and Contamination Analysis using OpenCV
+
+This repository contains an AI-based application for detecting impurities and analyzing contamination in marine water using OpenCV (Open Source Computer Vision Library). The project utilizes computer vision techniques to process images of marine water samples and identify potential impurities or contaminants.
+
+## Features
+
+- **Image Processing**: Utilizes OpenCV for image manipulation, filtering, and analysis.
+- **Impurity Detection**: Detects and highlights potential impurities in marine water samples.
+- **Contamination Analysis**: Provides analysis and classification of contaminants based on image data.
+- **User Interface**: Includes a simple graphical user interface (GUI) for interacting with the application.
+- **Real-time Analysis**: Capable of processing images in real-time for immediate feedback.
+
+## Installation
+
+To run this application locally, follow these steps:
+
+1. **Clone Repository**:
+   ```bash
+   git clone https://github.com/your_username/ai-marine-water-impurity.git
+   ```
+
+2. **Install Dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Run the Application**:
+   ```bash
+   python main.py
+   ```
+
+## Usage
+
+1. Launch the application by running `main.py`.
+2. Use the GUI to load a marine water image or connect to a live camera feed.
+3. Analyze the results displayed by the application, which will highlight detected impurities and provide contamination analysis.
+
+## Contributing
+
+Contributions are welcome! If you would like to contribute to this project, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-addition`).
+3. Make your changes.
+4. Commit your changes (`git commit -am 'Add new feature'`).
+5. Push to the branch (`git push origin feature-addition`).
+6. Create a new Pull Request.
+
+Please ensure that your pull requests adhere to the repository's guidelines and coding standards.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+This project utilizes the following open-source libraries and resources:
+
+- [OpenCV](https://opencv.org/) - Open Source Computer Vision Library
+- [NumPy](https://numpy.org/) - Numerical computing with Python
